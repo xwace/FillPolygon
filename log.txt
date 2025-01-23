@@ -1,0 +1,249 @@
+Active code page: 65001
+edge:x 15 y0: 11 12
+addr: 0000025BC0607960
+edge:x 15 y0: 11 13
+addr: 0000025BC0607980
+edge:x 12 y0: 12 17
+addr: 0000025BC06079A0
+edge:x 21 y0: 13 18
+addr: 0000025BC06079C0
+edge:x 15 y0: 15 17
+addr: 0000025BC06079E0
+edge:x 15 y0: 15 18
+addr: 0000025BC0607A00
+edge:x 0 y0: 2147483647 0
+addr: 0000025BC0607A20
+
+Each loop tmp: 000000F53A2FE7E8
+tempnext000: 0000000000000000
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 0 prelast addr: 000000F53A2FE7E8
+===================tmpnex1:
+prelast: 000000F53A2FE7E8
+last: 0000000000000000tmpnext: 0000025BC0607960
+===================tmpnex2:  tmp->next: 0000025BC0607960
+===================tmpnex3:  tmp->next: 0000025BC0607960
+===================tmpnex4:  tmp->next: 0000025BC0607960
+[Insert]Each loop: keep_prelast= 0 prelast: 1 last: 0 Eid: 2
+===================tmpnext end:  tmp->next: 0000025BC0607960
+[Process]Each loop: keep_prelast= 0 prelast: 1 last: 0
+y: 11
+[After]Each loop: keep_prelast= 0 prelast: 1 last: 0
+tempnext000: 0000025BC0607960
+[Before]Each loop: keep_prelast= 0 prelast: 1 last: 0 prelast addr: 0000025BC0607960
+===================tmpnex1:  tmp->next: 0000025BC0607960
+prelast: 0000025BC0607960
+last: 0000000000000000tmpnext: 0000025BC0607960
+===================tmpnex2:  tmp->next: 0000025BC0607960 tmp->next->next: 0000025BC0607980
+===================tmpnex3:  tmp->next: 0000025BC0607960 tmp->next->next: 0000025BC0607980
+===================tmpnex4:  tmp->next: 0000025BC0607960 tmp->next->next: 0000025BC0607980
+[Insert]Each loop: keep_prelast= 1 prelast: 2 last: 0 Eid: 3
+===================tmpnext end:  tmp->next: 0000025BC0607960 tmp->next->next: 0000025BC0607980
+[Process]Each loop: keep_prelast= 1 prelast: 2 last: 0
+[draw line]keep_prelast: 1 prelast: 2 last: 0
+y: 11
+[After]Each loop: keep_prelast= 1 prelast: 2 last: 0
+tmp1: 0000025BC0607960
+after sorting: 1 prelast: 2 lst: 0
+
+
+Each loop tmp: 000000F53A2FE7E8
+tempnext000: 0000025BC0607960
+last00: 1 last->next: 2 eidx: 3
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 1 prelast addr: 000000F53A2FE7E8
+Update last: 0000025BC0607980
+tempnext000: 0000025BC0607980
+last00: 2 last->next: 0 eidx: 3
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 2 prelast addr: 000000F53A2FE7E8
+===================tmpnex1:  tmp->next: 0000025BC0607980
+prelast: 000000F53A2FE7E8
+last: 0000025BC0607980tmpnext: 0000025BC06079A0
+===================tmpnex2:  tmp->next: 0000025BC06079A0
+===================tmpnex3:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC0607980
+===================tmpnex4:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC0607980
+[Insert]Each loop: keep_prelast= 0 prelast: 3 last: 2 Eid: 4
+last22: 2 last->next: 0 eidx: 4
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC0607980
+[Process]Each loop: keep_prelast= 0 prelast: 3 last: 2
+last33: 2 last->next: 0 eidx: 4
+y: 12
+[After]Each loop: keep_prelast= 0 prelast: 3 last: 2
+tempnext000: 0000025BC06079A0
+last00: 2 last->next: 0 eidx: 4
+[Before]Each loop: keep_prelast= 0 prelast: 3 last: 2 prelast addr: 0000025BC06079A0
+[Active]keep_prelast= 3 prelast: 2 last: 0
+i and total: 3 6
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC0607980
+[Process]Each loop: keep_prelast= 3 prelast: 2 last: 0
+[draw line]keep_prelast: 3 prelast: 2 last: 0
+y: 12
+[After]Each loop: keep_prelast= 3 prelast: 2 last: 0
+tmp1: 0000025BC06079A0
+after sorting: 3 prelast: 2 lst: 0
+
+
+Each loop tmp: 000000F53A2FE7E8
+tempnext000: 0000025BC06079A0
+last00: 3 last->next: 2 eidx: 4
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 3 prelast addr: 000000F53A2FE7E8
+[Active]keep_prelast= 0 prelast: 3 last: 2
+i and total: 3 6
+last11: 2 last->next: 0 eidx: 4
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC0607980
+[Process]Each loop: keep_prelast= 0 prelast: 3 last: 2
+last33: 2 last->next: 0 eidx: 4
+y: 13
+[After]Each loop: keep_prelast= 0 prelast: 3 last: 2
+tempnext000: 0000025BC06079A0
+last00: 2 last->next: 0 eidx: 4
+[Before]Each loop: keep_prelast= 0 prelast: 3 last: 2 prelast addr: 0000025BC06079A0
+Update last: 0000000000000000
+tempnext000: 0000025BC06079A0
+[Before]Each loop: keep_prelast= 0 prelast: 3 last: 0 prelast addr: 0000025BC06079A0
+===================tmpnex1:  tmp->next: 0000025BC06079A0
+prelast: 0000025BC06079A0
+last: 0000000000000000tmpnext: 0000025BC06079A0
+===================tmpnex2:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+===================tmpnex3:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+===================tmpnex4:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+[Insert]Each loop: keep_prelast= 3 prelast: 4 last: 0 Eid: 5
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 3 prelast: 4 last: 0
+[draw line]keep_prelast: 3 prelast: 4 last: 0
+y: 13
+[After]Each loop: keep_prelast= 3 prelast: 4 last: 0
+tmp1: 0000025BC06079A0
+after sorting: 3 prelast: 4 lst: 0
+
+
+Each loop tmp: 000000F53A2FE7E8
+tempnext000: 0000025BC06079A0
+last00: 3 last->next: 4 eidx: 5
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 3 prelast addr: 000000F53A2FE7E8
+[Active]keep_prelast= 0 prelast: 3 last: 4
+i and total: 4 6
+last11: 4 last->next: 0 eidx: 5
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 0 prelast: 3 last: 4
+last33: 4 last->next: 0 eidx: 5
+y: 14
+[After]Each loop: keep_prelast= 0 prelast: 3 last: 4
+tempnext000: 0000025BC06079A0
+last00: 4 last->next: 0 eidx: 5
+[Before]Each loop: keep_prelast= 0 prelast: 3 last: 4 prelast addr: 0000025BC06079A0
+[Active]keep_prelast= 3 prelast: 4 last: 0
+i and total: 4 6
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 3 prelast: 4 last: 0
+[draw line]keep_prelast: 3 prelast: 4 last: 0
+y: 14
+[After]Each loop: keep_prelast= 3 prelast: 4 last: 0
+tmp1: 0000025BC06079A0
+after sorting: 3 prelast: 4 lst: 0
+
+
+Each loop tmp: 000000F53A2FE7E8
+tempnext000: 0000025BC06079A0
+last00: 3 last->next: 4 eidx: 5
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 3 prelast addr: 000000F53A2FE7E8
+[Active]keep_prelast= 0 prelast: 3 last: 4
+i and total: 4 6
+last11: 4 last->next: 0 eidx: 5
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 0 prelast: 3 last: 4
+last33: 4 last->next: 0 eidx: 5
+y: 15
+[After]Each loop: keep_prelast= 0 prelast: 3 last: 4
+tempnext000: 0000025BC06079A0
+last00: 4 last->next: 0 eidx: 5
+[Before]Each loop: keep_prelast= 0 prelast: 3 last: 4 prelast addr: 0000025BC06079A0
+===================tmpnex1:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079C0
+prelast: 0000025BC06079A0
+last: 0000025BC06079C0tmpnext: 0000025BC06079A0
+===================tmpnex2:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0
+===================tmpnex3:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC06079C0
+===================tmpnex4:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC06079C0
+[Insert]Each loop: keep_prelast= 3 prelast: 5 last: 4 Eid: 6
+last22: 4 last->next: 0 eidx: 6
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 3 prelast: 5 last: 4
+last33: 4 last->next: 0 eidx: 6
+[draw line]keep_prelast: 3 prelast: 5 last: 4
+y: 15
+[After]Each loop: keep_prelast= 3 prelast: 5 last: 4
+tempnext000: 0000025BC06079A0
+last00: 4 last->next: 0 eidx: 6
+[Before]Each loop: keep_prelast= 3 prelast: 5 last: 4 prelast addr: 0000025BC06079E0
+===================tmpnex1:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC06079C0
+prelast: 0000025BC06079E0
+last: 0000025BC06079C0tmpnext: 0000025BC06079A0
+===================tmpnex2:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00
+===================tmpnex3:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+===================tmpnex4:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Insert]Each loop: keep_prelast= 5 prelast: 6 last: 4 Eid: 7
+last22: 4 last->next: 0 eidx: 7
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 5 prelast: 6 last: 4
+last33: 4 last->next: 0 eidx: 7
+y: 15
+[After]Each loop: keep_prelast= 5 prelast: 6 last: 4
+tempnext000: 0000025BC06079A0
+last00: 4 last->next: 0 eidx: 7
+[Before]Each loop: keep_prelast= 5 prelast: 6 last: 4 prelast addr: 0000025BC0607A00
+[Active]keep_prelast= 6 prelast: 4 last: 0
+i and total: 6 6
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 6 prelast: 4 last: 0
+[draw line]keep_prelast: 6 prelast: 4 last: 0
+y: 15
+[After]Each loop: keep_prelast= 6 prelast: 4 last: 0
+tmp1: 0000025BC06079A0
+after sorting: 6 prelast: 4 lst: 0
+
+
+Each loop tmp: 000000F53A2FE7E8
+tempnext000: 0000025BC06079A0
+last00: 3 last->next: 5 eidx: 7
+[Before]Each loop: keep_prelast= 0 prelast: 0 last: 3 prelast addr: 000000F53A2FE7E8
+[Active]keep_prelast= 0 prelast: 3 last: 5
+i and total: 6 6
+last11: 5 last->next: 6 eidx: 7
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 0 prelast: 3 last: 5
+last33: 5 last->next: 6 eidx: 7
+y: 16
+[After]Each loop: keep_prelast= 0 prelast: 3 last: 5
+tempnext000: 0000025BC06079A0
+last00: 5 last->next: 6 eidx: 7
+[Before]Each loop: keep_prelast= 0 prelast: 3 last: 5 prelast addr: 0000025BC06079A0
+[Active]keep_prelast= 3 prelast: 5 last: 6
+i and total: 6 6
+last11: 6 last->next: 4 eidx: 7
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 3 prelast: 5 last: 6
+last33: 6 last->next: 4 eidx: 7
+[draw line]keep_prelast: 3 prelast: 5 last: 6
+y: 16
+[After]Each loop: keep_prelast= 3 prelast: 5 last: 6
+tempnext000: 0000025BC06079A0
+last00: 6 last->next: 4 eidx: 7
+[Before]Each loop: keep_prelast= 3 prelast: 5 last: 6 prelast addr: 0000025BC06079E0
+[Active]keep_prelast= 5 prelast: 6 last: 4
+i and total: 6 6
+last11: 4 last->next: 0 eidx: 7
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 5 prelast: 6 last: 4
+last33: 4 last->next: 0 eidx: 7
+y: 16
+[After]Each loop: keep_prelast= 5 prelast: 6 last: 4
+tempnext000: 0000025BC06079A0
+last00: 4 last->next: 0 eidx: 7
+[Before]Each loop: keep_prelast= 5 prelast: 6 last: 4 prelast addr: 0000025BC0607A00
+[Active]keep_prelast= 6 prelast: 4 last: 0
+i and total: 6 6
+===================tmpnext end:  tmp->next: 0000025BC06079A0 tmp->next->next: 0000025BC06079E0 tmp->next->next->next: 0000025BC0607A00 tmp->next->next->next->next: 0000025BC06079C0
+[Process]Each loop: keep_prelast= 6 prelast: 4 last: 0
+[draw line]keep_prelast: 6 prelast: 4 last: 0
+y: 16
+[After]Each loop: keep_prelast= 6 prelast: 4 last: 0
+tmp1: 0000025BC06079A0
+after sorting: 6 prelast: 4 lst: 0
